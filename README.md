@@ -12,7 +12,7 @@ Using Machine Learning, Data Science and NLP techniques to detect the Reviews Se
 * [Sources](#sources)
 
 ## Introduction
-Understanding and Processing language and deriving criteria, ideas and answers from it is very important in data and AI, we attach importance to Natural Language Processing and we noticed in the past few days the qualitative leap achieved by the use of LLM models.
+Understanding and Processing language and deriving criteria, ideas and answers from it is very important in data and AI, we attached importance to Natural Language Processing and we noticed in the past few days the qualitative leap achieved by the use of LLM models.
 
 Hence I present to you my Sentiment Analysis project (sentiment analysis of movie reviews). In this project I put my suggestions for solving it with the best possible ways and the current capabilities using Machine Learning, Data Science, and NLP.\
 Hoping to improve it gradually in the coming times.
@@ -22,7 +22,7 @@ Hoping to improve it gradually in the coming times.
 * About:
 
 A movie review dataset. NLP tasks Sentiment Analysis.
-Note : all the movie review are long sentence(most of them are longer than 200 words.)
+Note : all the movie reviews are long sentences(most of them are longer than 200 words.)
 Content
 
 two columns used (text : the review of the movie and label : the sentiment label of the movie review)
@@ -43,7 +43,7 @@ two columns used (text : the review of the movie and label : the sentiment label
 * Application: Jupyter Notebook.
 
 ## Setup
-To run this project setup the following libraries on your local machine using pip on the terminal after installing Python:
+To run this project, setup the following libraries on your local machine using pip on the terminal after installing Python:
 
 !git clone https://github.com/WittmannF/LRFinder.git
 
@@ -115,7 +115,7 @@ conda install -c conda-forge accelerate
 '''
 
 ## Features
-* I present to you my project solving the problem of sentiment analysis of movie reviews using a lot of effective algorithm and techniques with a good analysis (EDA), and comparing between them using logical thinking, and put my suggestions for solving it in the best possible ways and the current capabilities using Data Science, Machine Learning and NLP.
+* I present to you my project solving the problem of sentiment analysis of movie reviews using a lot of effective algorithms and techniques with a good analysis (EDA), and comparing between them using logical thinking, and putting my suggestions for solving it in the best possible ways and the current capabilities using Data Science, Machine Learning and NLP.
 
 ### To Do:
 **Briefly about the process of the project work, here are (some) insights that I took care of it:**
@@ -127,9 +127,9 @@ conda install -c conda-forge accelerate
 * Deep EDA (Find Sents, Tokens, Lemma, POS, NER, N-Grams).
 * Vectorizing (Count Vectorizer, TF-IDF Vectorizer).
 * Modelling (ML - Decision Tree, BernoulliNB, Complement NB, Random Forest, SVC, XGBoost, SGD, Voting, Multinomial NB, AdaBoost, Gradient Boosting, Bagging, Logistic Regression, Stacking, Ridge Classifiers).
-* Evaluate and making analysis of ML models (ROC, Classification report, Cross-validation, Learning curve, Validation set, and Features Selection).
+* Evaluating and making analysis of ML models (ROC, Classification report, Cross-validation, Learning curve, Validation set, and Features Selection).
 * Modelling (DL - GRU, LSTM, BiLSTM with pretrained embedding layer - GloVE).
-* Evaluate DL models on (Test set, Validation set using accuracy score).
+* Evaluating DL models on (Test set, Validation set using accuracy score).
 * Modelling (Transformers - Roberta-Base with TensorFlow, bert-base-uncased fine tuning using Pytorch).
 * Parameters Choosing (Halving Grid Search CV).
 * Deployment the model using FastAPI.
@@ -141,22 +141,17 @@ To run and show analysis, insights, correlation, and results between any set of 
 * Note: you have to use a jupyter notebook to open this code file.
 
 1. Run the importing stage.
-
 2. Load the dataset.
-
 3. Select which cell you would like to run and show its output.
-
 4. Run Selection/Line in Python Terminal command (Shift+Enter).
 
-In case of deployment it using FastAPI, you can follow this steps:
+In case of deploymenting it using FastAPI, you can follow this steps:
 
 1. make sure you install the latest version (with pip): pip install fastapi
 2. You will also need an ASGI server for production such as uvicorn: pip install uvicorn
 3. Run the API
  3.1 The following command will help us to run the FastAPI app we have created: uvicorn main:app --reload
-
 4. FastAPI provides an Automatic Interactive API documentation page. To access it navigate to http://127.0.0.1:8000/docs in your browser and then you will see the documentation page created automatically by FastAPI.
-
 5. To make a prediction first click the “predict-review” route and then click on the button “Try it out”, it allows you to fill the review parameter and directly interact with the API.
 
 ## Sources
