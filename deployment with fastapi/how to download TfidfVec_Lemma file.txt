@@ -1,0 +1,3 @@
+Because of the big size of TfidfVec_Lemma.pkl file, I could not upload it. So you have to use this command, and download it (after running the previous steps):
+pickle.dump(vectorizer, open('TfidfVec_Lemma.pkl', 'wb'))
+This command exists in the header: # Vectorizing - ## TF-IDF Vectorizer.
